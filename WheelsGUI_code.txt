@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FC345C;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #49BEB7;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+div {
+  border: 3px solid black;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: White;
+}
+
+
+.A {
+padding:20px;
+}
+
+
+.button1 {
+  background-color: #AFFFDF; 
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 6px #999;
+  border-radius: 20px;
+}
+.button2 {
+  background-color: #FC345C; 
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 6px #999;
+  border-radius: 20px;
+}
+
+.button1:active {
+  background-color: #66C19D;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button2:active {
+  background-color: #C22746;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ 
+
+</style>
+
+
+</head>
+
+<body bgcolor=#8284BA>
+
+<br><br><br>
+<h1><center>Robot Wheel Controller</center></h1>
+
+
+<center>
+<div>
+<h2><p><center>Try Me!</center></p></h2>
+<br><br>
+
+<label class="switch"><input type="checkbox" checked><span class="slider round"></span></label>
+
+
+<br><br><br><br>
+<button class="button button1"><B>Forward</B></button><br><br>
+<pre><button class="button button1"><B>Left</B></button>   <button class="button button2"><B>Break</B></button>  <button class="button button1"><B>Right</B></button><br><br></pre>
+<button class="button button1"><B>Backward</B></button>
+
+
+
+<br><br><br><br></div></center>
+
+
+</body>
+</html>
+
