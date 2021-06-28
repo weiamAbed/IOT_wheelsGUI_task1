@@ -11,7 +11,7 @@ Thank You!
 
 -----------------------------------------------
 
-# Default setup of the control panel: 
+# Setup of the control panel: 
 
 <img width="701" alt="WheelsController" src="https://user-images.githubusercontent.com/63375443/123608986-f3b49180-d807-11eb-9dff-48c3b5e0ec3b.png">
 
