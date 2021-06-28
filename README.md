@@ -11,9 +11,12 @@ Thank You!
 
 -----------------------------------------------
 
-# Setup of the control panel: 
+# ON & OFF Setup of the control panel: 
 
 <img width="701" alt="WheelsController" src="https://user-images.githubusercontent.com/63375443/123608986-f3b49180-d807-11eb-9dff-48c3b5e0ec3b.png">
+
+![OFFWheelsController](https://user-images.githubusercontent.com/63375443/123610827-a2a59d00-d809-11eb-80ab-c57578dc76cd.png)
+
 
 # Creating DataBase using phpMyAdmin:
 
